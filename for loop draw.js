@@ -1,4 +1,5 @@
-var n = 5
+function piramid() {
+var n = 5    
 for(var i=0; i < n; i++){
     var str = '';
      for(var j=1; j < n-i ; j++){
@@ -24,3 +25,5 @@ for(var i = 1 ; i <= y; i++){
     z+='\n'
 }
 console.log(z)
+}
+piramid();
